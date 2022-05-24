@@ -1,5 +1,6 @@
-#Sobre GitHub
-##Do GitHub
+# Sobre GitHub
+
+## Do GitHub
 - Git init - inicia o git dentro de uma pasta
 - git add * - selecionar os arquivos para dar commit
 - git commit -m “escrever uma mensagem” - comando para dar commit no repositorio local
@@ -10,7 +11,7 @@
 - git config —global [user.email](http://user.email) or [user.name](http://user.name) - configurar o nome e email do github
 - git config —global unset [user.email](http://user.email) or [user.name](http://user.name) - apaga o nome ou email para rescrever
 
-##Do prompt 
+## Do prompt 
 - Dir - Lista as pastas dentro de um diretorio
     - Dir -a
 - Cd - Change direct, mudar o diretorio que esta
@@ -22,13 +23,14 @@
 - Del - Serve apenas para deletar arquivos
 - Rmdir - Serve para deletar as pastas
 
-##Estrutura
+## Estrutura
 - Untrecked - arquivos desconhecidos para o github, ao usar o add vai para stage
 - Tracked - Arquivos que o github conhece
     - Unmodified - Arquivos que não tem nenhuma mudança, ao modificar vai para modified
     - Modified - Arquivos com mundaças mas não prontos para commit, ao dar add vai para staged
     - Staged - Pronto para “commitar”
- ##Informações
+    
+ ## Informações
  - Sha1 - Secure hash algorthm, embaralha as informações criando um codigo de 40 digitos
 - Estrutura basica: Todos tem o sha1 se alguma informação mudar vai mudar o sha1
     - Blobs - Armazena os metadados, como tamanho tipo
